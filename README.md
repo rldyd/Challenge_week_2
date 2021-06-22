@@ -2,3 +2,5 @@
 # Challenge_week_2
 This is my portfolio project. 
 This portfolio website that provides a quick introduction about me and a quick look at the projects I've made so far.
+
+https://rldyd.github.io/Challenge_week_2/
