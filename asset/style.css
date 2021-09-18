@@ -1,97 +1,104 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body
-{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: gray;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: gray;
 }
 
-header
-{
-    background-color: rgb(0,0,0,0.30);
-    padding: 20px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: sticky;
+.my-intro {
+  font-size: 50px;
+}
+.work-text h2 {
+  padding: 100px;
+  margin: 10% 0% 0% 0%;
+  text-align: center;
+  border-bottom: 10px;
+  font-size: 50px;
 }
 
-header h1
-{
-    color: black;
-    font-size: 30px;
+header {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
 }
 
-header nav
-{
-    margin: 5px;
+header h1 {
+  color: black;
+  font-size: 50px;
 }
 
-header nav ul
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+header nav {
+  margin: 5px;
 }
 
-header nav ul li a
-{
-    padding: 10px 10px;
-    font-weight: bold;
-    font-size: 17px;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
-header nav ul li a:hover 
-{
-    background-color: rgb(60, 100, 210);
-    border-radius: 10px;
+header nav ul li a {
+  padding: 20px 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(60, 100, 210);
+  border-radius: 10px;
 }
 
 /*About-Me section*/
 
-.top-title
-{
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
+.top h2 {
+  text-align: center;
+  font-size: 70px;
 }
 
-.top
-{
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+.top-title {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 }
 
-.myPic img
-{
-    width: 15%;
-    padding: 10px;
-    float: left;
+.top {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
-.my-intro
-{
-    align-self: center;
-    font-size: 30px;
-    padding: 10px;
+.myPic img {
+  width: 20%;
+  padding: 10px;
+  float: left;
+}
+
+.my-intro {
+  align-self: center;
+  font-size: 50px;
+  padding: 100px;
 }
 
 /* My-Work section begin*/
 
-.work-text
-{
-    padding: 70px;
-    font-size: 30px;
-    text-align: center;
+.work-text h2 {
+  text-align: center;
+  font-size: 70px;
+}
+.work-text {
+  padding: 30px;
+  padding-bottom: auto;
 }
 
 /* .work-section
@@ -112,39 +119,59 @@ header nav ul li a:hover
     align-items: center;
 } */
 
-.run-buddy img
-{
-    max-width: 100%;
-    min-height: 400px;
-    align-items: center;
-    padding: 20px;
+.run-buddy img {
+  max-width: 100%;
+  min-height: 400px;
+  align-items: center;
+  padding: 1%;
+  margin-top: 0;
 }
 
-.colum
-{
-    float: left;
-    width: 50%;
-    padding: 3px;
+.colum {
+  float: left;
+  width: 50%;
+  padding: 3px;
 }
 
-.colum img
-{
-    height: 100%;
+.colum img {
+  height: 100%;
 }
 
+/* Work Website */
+
+.myWork h2 {
+  text-align: left;
+  font-size: 50px;
+  padding: 30px;
+  margin-top: 105%;
+}
+
+.workWebsite ul {
+  font-size: 50px;
+  padding-left: 5%;
+}
 
 /*Contact-Me Section*/
 
-.contact h2
-{
-    font-size: 30px;
-    padding: 30px;
+.contact h2 {
+  font-size: 30px;
+  padding: 30px;
+  text-align: left;
+  font-size: 50px;
+  margin-top: 2%;
 }
-.contact-info address
-{
-    font-size: 20px;
-    font-style: normal;
-    padding: 30px;
+.contact-info address {
+  font-size: 50px;
+  font-style: normal;
+  padding-left: 5%;
+  padding-bottom: 10%;
 }
 
+/* Footer */
 
+footer {
+  border-top: 2px solid #ccc;
+  text-align: center;
+  font-size: 50px;
+  padding: 1%;
+}
